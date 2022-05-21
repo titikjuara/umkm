@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color:yellowgreen;
+
+	padding-left: 8%;
+	padding-right: 8%;
+	position: fixed;
+  top: 0; 
+  width: 100%; 
+}
+.logo{
+		height: 7%;
+		width: 7%;	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #30b5d6;
+	transition: .4s;
+}
+
+.bg { 
+ background-size: cover;
+ height: 1080px;
+ background-image: url(image/galery1.jpg);
+ margin-top: 85px;
+
+ }
